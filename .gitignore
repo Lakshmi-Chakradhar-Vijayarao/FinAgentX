@@ -1,26 +1,16 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-
-# Virtual environment
-.venv/
-env/
-venv/
-
-# Build artifacts
-finagentx.egg-info/
-dist/
-build/
-
-# Runtime data (keep structure, not contents)
+# Runtime artifacts
+data/artifacts/
 data/risk_memory/
 data/signals/
+
+# Real inputs
+data/raw/
+data/processed/
+data/inputs/
+
+# Embedding cache
 data/metadata/embeddings/
 
-# OS files
+# Noise
+__pycache__/
 .DS_Store
-
-# Model artifacts (optional)
-# Uncomment if you want models versioned separately
-# data/metadata/risk_model.joblib
