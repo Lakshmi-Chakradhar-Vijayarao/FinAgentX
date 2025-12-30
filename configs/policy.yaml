@@ -1,0 +1,11 @@
+rules:
+  - if:
+      severity: HIGH
+    then:
+      action: ESCALATE
+      owner: RiskCommittee
+
+  - if:
+      trend: PERSISTENT_HIGH
+    then:
+      action: PRIORITY_REVIEW

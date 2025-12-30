@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "finagentx"
+version = "0.1.0"
+description = "Disclosure Intelligence and Risk Signal Engine"
+authors = [{ name = "Chakrivijayarao" }]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
